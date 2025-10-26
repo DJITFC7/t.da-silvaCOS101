@@ -8,30 +8,31 @@ fn main() {
 
     println!("enter coefficient of x^2");
      io::stdin().read_line(&mut input1).expect("not a valid string");
-     let a:i32 = input1.trim().parse().expect("not a valid number");
+     let a:f32 = input1.trim().parse().expect("not a valid number");
 
     println!("enter coefficient of x");
      io::stdin().read_line(&mut input2).expect("not a valid string");
-     let b:i32 = input2.trim().parse().expect("not a valid number");
+     let b:f32 = input2.trim().parse().expect("not a valid number");
 
     println!("enter ");
      io::stdin().read_line(&mut input3).expect("not a valid string");
-     let c:i32 = input3.trim().parse().expect("not a valid number");
+     let c:f32 = input3.trim().parse().expect("not a valid number");
 
+    let d:f32 = b * b - 4.0 * a * c;
+    let x1 = (-b + d.sqrt())/ (2.0 * a);
+    let x2 = (-b - d.sqrt())/ (2.0 * a);
+    println!("the roots of the equation are {} and {}",x1, x2 );
 
-    let d = b^2 - (4 * a * c);
-
-    if d > 0
+    if d > 0.0
     {
         println!("roots are distinct");
-    }
-    if d < 0 
-    {
+    }else if d < 0.0 {
         println!("roots are imaginary");
-    }
-    if d == 0
+    }else if d == 0.0
     {
         println!("roots are equal and real");
+    }else {
+        println!("math error!");
     }
 
 
