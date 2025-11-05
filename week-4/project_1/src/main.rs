@@ -21,7 +21,7 @@ fn main() {
     let d:f32 = b * b - 4.0 * a * c;
     let x1 = (-b + d.sqrt())/ (2.0 * a);
     let x2 = (-b - d.sqrt())/ (2.0 * a);
-    println!("the roots of the equation are {} and {}",x1, x2 );
+    println!("the roots of the equation are {} and {}", x1 , x2 );
 
     if d > 0.0
     {

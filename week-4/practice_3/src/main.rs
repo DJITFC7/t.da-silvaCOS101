@@ -12,7 +12,7 @@ fn main() {
   io::stdin().read_line(&mut input2).expect("Not a valid string");
   let height:f32 = input2.trim().parse().expect("Not a valid number");
 
-  if base > 0.0 {
+  if base > 0.0 && height > 0{
        let area:f32 =(base * height ) / 2.0;
        println!("Area of a traingle: {}", area );
 

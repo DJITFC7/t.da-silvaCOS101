@@ -5,9 +5,7 @@ fn main() {
 
     println!("please Enter your name.");
     let mut name = String::new();
-         io::stdin()
-         .read_line(&mut name)
-         .expect("Failed to read input");
+         io::stdin().read_line(&mut name).expect("Failed to read input");
         println!("Your name is {}", name);
 
         println!("Enter your age.");
