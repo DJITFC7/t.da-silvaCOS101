@@ -8,7 +8,7 @@ fn main() {
     file.write("Welcome to Rust Programming\n"
         .as_bytes()).expect("write failed");
     file.write_all(announce.as_bytes()).expect("write failed");
-    file.write_all(dept.as_bytes()).expect("write failed");
-    println!("\nData written to file..");
+    file.write_all(dept.as_bytes()).expect("write failed.");
+    println!("\nData written to file.");
 
 }
