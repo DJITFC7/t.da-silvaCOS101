@@ -7,5 +7,5 @@ fn main() {
     file.write_all("\nHello Class".as_bytes()).expect("Write failed");
     file.write_all("\nThis is the appendage to the document.".as_bytes()).expect("write failed");
     file.write_all("\nMr Chudi should give me 20 marks and 10 dollars".as_bytes()).expect("write failed");
-    println!("filed append success..");
+    println!("filed append success...");
 }
