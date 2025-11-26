@@ -2,5 +2,5 @@ use std::fs;
 
 fn main() {
     std::fs::remove_file("../practice_1/data.txt").expect("could not remove file");
-    println!("file is removed");
+    println!("file is removed.");
 }
