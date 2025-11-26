@@ -6,6 +6,6 @@ fn main() {
     file.write("David is black\n".as_bytes());
     let mut file = std::fs::File::open("Welcome_message.txt").unwrap();
     let mut contents = String::new();
-    file.read_to_string(&mut contents).expect("read failed");
+    file.read_to_string(&mut contents).expect("read failed.");
     println!("{}",contents);
 }
