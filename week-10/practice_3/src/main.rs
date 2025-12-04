@@ -8,6 +8,6 @@ fn main() {
 }
 fn display(v:Vec<i32>)->Vec<i32> {
     //returning same vector
-    println!("inside display {:?}",v );
+    println!("inside display : {:?}",v );
     return v;
 }
