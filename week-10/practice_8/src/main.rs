@@ -19,7 +19,7 @@ fn main() {
     display(emp1);
     display(emp2);
 }
- //fetvh alues of specific structure fields using the operstor and print to console
+ //fetch values of specific structure fields using the operstor and print to console
     fn display(emp:Employee){    
     println!("Name is :{} company is {} age is {}",emp.ceo, emp.company,emp.age);
 }
