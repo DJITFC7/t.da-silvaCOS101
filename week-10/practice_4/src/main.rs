@@ -6,5 +6,5 @@ fn main() {
 }
 
 fn print_vector(x:Vec<i32>){
-    println!("Inisde print_vector function {:?}",x );
+    println!("Inisde print_vector function :{:?}",x );
 }
