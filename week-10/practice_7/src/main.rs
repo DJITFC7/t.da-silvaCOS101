@@ -8,7 +8,7 @@ struct Employee {
 fn main() {
     let emp1 = Employee {
         company:String::from("Ernest & Young"),
-        name:String::from("Ebi Jessica"),
+        name:String::from("Ehi Jessica"),
         age:25
     };
     println!("Name = {} \n",emp1.name);
