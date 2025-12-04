@@ -9,6 +9,6 @@ fn main() {
 }
 fn borrow_vector(z:&Vec<i32>){
     println!("*******************************");
-    println!("Inside borrow_vector function {:?} \n",z );
+    println!("Inside borrow_vector function : {:?} \n",z );
     println!("-------------------------------");
 }
