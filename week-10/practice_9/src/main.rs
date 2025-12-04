@@ -9,7 +9,6 @@ impl Rectangle{
         self.width * self.height
     }
 }
-
 fn main() {
     //instanatiate the structure
     let small = Rectangle{
