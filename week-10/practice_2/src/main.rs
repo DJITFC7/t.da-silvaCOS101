@@ -12,5 +12,5 @@ fn main() {
    //v2 is no longer usable here
 }
 fn display(v:Vec<i32>){
-    println!("inside display {:?}",v );
+    println!("inside display :{:?}",v );
 }
