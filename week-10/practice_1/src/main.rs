@@ -8,6 +8,8 @@ fn main() {
     //two pointers to the same content is not allowed in rust
     //Rust is very smart in terms of memory access , so it detects aa race condition
     //as two variables point to same heap
+    
+
     // println!("{:?}",v);
     println!("{:?}",v2);
 }
